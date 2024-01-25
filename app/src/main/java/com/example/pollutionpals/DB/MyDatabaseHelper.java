@@ -46,6 +46,9 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                         COLUMN_Pass + " TEXT);";
         db.execSQL(query);
     }
+    public void ondddd(int rr){
+
+    }
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
